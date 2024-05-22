@@ -1,6 +1,8 @@
 ---
 title: Tina Cloud Starter xx
 blocks:
+  - body: ''
+    _template: content
   - headline: Welcome to the Tina Starter
     text: >
       This project is set up to show you the basics of working with Tina. You're
