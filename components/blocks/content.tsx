@@ -5,6 +5,8 @@ import { TinaMarkdown } from "tinacms/dist/rich-text";
 import type { TinaTemplate } from "tinacms";
 import { PageBlocksContent } from "../../tina/__generated__/types";
 import { tinaField } from "tinacms/dist/react";
+import { Carousel } from "@material-tailwind/react";
+import { ThemeProvider } from "@material-tailwind/react";
 
 export const Content = ({ data }: { data: PageBlocksContent }) => {
   return (
