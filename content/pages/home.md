@@ -2,6 +2,8 @@
 title: Tina Cloud Starter xx
 blocks:
   - body: ''
+    _template: car1
+  - body: ''
     _template: car
   - body: ''
     _template: content

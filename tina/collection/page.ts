@@ -4,6 +4,7 @@ import { contentBlockSchema } from "../../components/blocks/content";
 import { testimonialBlockSchema } from "../../components/blocks/testimonial";
 import { featureBlockSchema } from "../../components/blocks/features";
 import { carBlockSchema } from "../../components/blocks/car";
+import { car1BlockSchema } from "../../components/blocks/car1";
 
 const Page: Collection = {
   label: "Pages",
@@ -45,7 +46,8 @@ const Page: Collection = {
         featureBlockSchema,
         contentBlockSchema,
         testimonialBlockSchema,
-		carBlockSchema
+		carBlockSchema,
+		car1BlockSchema
       ],
     },
   ],

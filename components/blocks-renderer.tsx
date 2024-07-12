@@ -1,6 +1,7 @@
 import type { Page, PageBlocks } from "../tina/__generated__/types";
 import { Content } from "./blocks/content";
 import { Car } from "./blocks/car";
+import { Car1 } from "./blocks/car1";
 import { Features } from "./blocks/features";
 import { Hero } from "./blocks/hero";
 import { Testimonial } from "./blocks/testimonial";
@@ -33,7 +34,9 @@ const Block = (block: PageBlocks) => {
     case "PageBlocksTestimonial":
       return <Testimonial data={block} />;
 	case "PageBlocksCar":
-      return <Car data={block} />;  
+      return <Car data={block} />;
+	case "PageBlocksCar1":
+      return <Car1 data={block} />;  
     default:
       return null;
   }

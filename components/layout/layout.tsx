@@ -5,6 +5,7 @@ import { Footer } from "./footer";
 import { Theme } from "./theme";
 import layoutData from "../../content/global/index.json";
 import { Global } from "../../tina/__generated__/types";
+import { ThemeModeScript } from "flowbite-react";
 
 export const Layout = ({
   rawData = {},
@@ -18,7 +19,8 @@ export const Layout = ({
   return (
     <>
       <Head>
-        <title>Tina</title>
+        <title>Tina1</title>
+        <ThemeModeScript />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         {data.theme.font === "nunito" && (
           <>
